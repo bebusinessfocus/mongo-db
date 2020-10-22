@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "pretest": "npm run lint",
-    "test": "echo \"Warning: no test specified\" && exit 0"
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch"
   },
   "repository": {
     "type": "git",
